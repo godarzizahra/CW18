@@ -1,11 +1,11 @@
-import CardItem from "./menu/card-item";
 import { Menu } from "./menu/menu";
+import Reserve from "./reserve/reserve";
 
 function Home() {
 	return (
-		<div className="bg-[#00688e] flex justify-center gap-10 m-5 overflow-auto">
+		<div className="bg-[#00688e] p-8 flex flex-row justify-center gap-10 w-full overflow-auto">
+			<Reserve />
 			<Menu />
-			<CardItem />
 		</div>
 	);
 }
