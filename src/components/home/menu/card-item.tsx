@@ -20,7 +20,7 @@ export default function CardItem(props: ProductType) {
 			</div>
 			{/* food deteail */}
 			<div className="flex flex-row-reverse gap-5">
-				<img src={props.images} width="50px" height="50px" />
+				<img src={props.images} width="70px" height="30px" />
 				<div className="text-right flex flex-col gap-2">
 					<div className="font-bold tex-[10px] sm:text-[15px]">
 						{props.title}
